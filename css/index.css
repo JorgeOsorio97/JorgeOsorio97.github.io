@@ -38,7 +38,7 @@
 	z-index: 7;
 	height: 900px;
 	border-color: #000000;
-	background: #FFFFFF url("../images/slide1.jpg") no-repeat center center;
+	background: #FFFFFF url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
 }
 
