@@ -9,7 +9,3 @@ function initMap() {
          map: map
      });
  }
-
-async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlHIR30Y30uWKxjoYrEHOP_JkkADGu_mI&callback=initMap">
-
