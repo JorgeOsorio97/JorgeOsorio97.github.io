@@ -2,14 +2,14 @@ import React from "react";
 
 export const Testimonial = props => {
   return (
-    <div class="testi ">
+    <div className="testi ">
       <blockquote>{props.children}</blockquote>
 
-      <div class="testiProfile">
-        <div class="icoQuote">
-          <i class="icon-quote-right"></i>
+      <div className="testiProfile">
+        <div className="icoQuote">
+          <i className="icon-quote-right"></i>
         </div>
-        <div class="nameProfile">
+        <div className="nameProfile">
           <h3>{props.author}</h3>
         </div>
       </div>

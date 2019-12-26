@@ -6,7 +6,7 @@ export const Header = ()=>{
 			
 			<div className=" holder960">
 
-			<a href="" className="mobileBtn" ><i className="icon-menu"></i></a>
+			<a href="javascript:void(0)" className="mobileBtn" ><i className="icon-menu"></i></a>
 			
 				<nav id="mainNav" >
 				<ul>

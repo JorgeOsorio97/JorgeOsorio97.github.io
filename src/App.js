@@ -7,6 +7,8 @@ import { About } from "./components/About/About";
 import { CV } from "./components/CV/CV";
 import { Phrases } from "./components/Phrases/Phrases";
 import { Portfolio } from "./components/Portfolio/Portfolio";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <CV></CV>
       <Phrases></Phrases>
       <Portfolio></Portfolio>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import { ExperienceCard } from "./ExperienceCard";
 
 export const CV = () => {
   return (
-    <section id="resume" class="clearfix section">
+    <section id="resume" className="clearfix section">
       <SectionTitle title="resume" icon="icon-docs">
         <p>
           Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit sed
@@ -15,13 +15,13 @@ export const CV = () => {
         </p>
       </SectionTitle>
 
-      <div class="holder960 clearfix">
-        <div class="resumeContainer">
+      <div className="holder960 clearfix">
+        <div className="resumeContainer">
           <SubsectionTitle title=" my Employment">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </SubsectionTitle>
 
-          <div class="emHolder top clearfix">
+          <div className="emHolder top clearfix">
             <CardRow>
               <ExperienceCard
                 title="WebDeveloper - MutationMedia"
@@ -46,18 +46,18 @@ export const CV = () => {
             </CardRow>
           </div>
 
-          <div class="divider">
+          <div className="divider">
             <span>
-              <i class="icon-star-filled"></i>
+              <i className="icon-star-filled"></i>
             </span>
           </div>
 
-          <div class="innerTitle">
+          <div className="innerTitle">
             <h1> my education</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
 
-          <div class="edHolder top clearfix">
+          <div className="edHolder top clearfix">
             <CardRow>
               <ExperienceCard
                 title="Master Degree – Mutation Media"
@@ -84,7 +84,7 @@ export const CV = () => {
         </div>
       </div>
 
-      <div class="cta">
+      <div className="cta">
         <p>
           Do you have a project, ideas and you want to get started ?<br /> Don’t
           hesitate feel free to get in <a href="#contact">touch with me</a>.

@@ -1,18 +1,18 @@
 import React from 'react'
 
 export const Teaser = ()=>{
-    return(<div id="teaser" class="clearfix ">
+    return(<div id="teaser" className="clearfix ">
 				
-    <div class="overlay">
+    <div className="overlay">
         
         
-    <div class="holder960 clearfix">
+    <div className="holder960 clearfix">
         
-        <div class="teaserTitle ">
-            <h1><span class="rotate">Jorge Valdez, Y Desarollo Web, Ciencia de Datos</span></h1>
+        <div className="teaserTitle ">
+            <h1><span className="rotate">Jorge Valdez, Y Desarollo Web, Ciencia de Datos</span></h1>
         </div>
         
-        <div class="captions">		
+        <div className="captions">		
             <p>Soluciones Web con Ciencia de Datos</p>		
         </div>
                                 

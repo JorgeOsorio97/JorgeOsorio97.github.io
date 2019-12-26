@@ -2,9 +2,9 @@ import React from "react";
 
 export const SectionTitle = (props) => {
   return (
-    <div class="secTitle">
+    <div className="secTitle">
       <h1>
-        <i class={props.icon}></i>/ {props.title}
+        <i className={props.icon}></i>/ {props.title}
       </h1>
       {props.children}
     </div>

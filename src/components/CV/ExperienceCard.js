@@ -2,11 +2,11 @@ import React from "react";
 
 export const ExperienceCard = props => {
   return (
-    <div class="em column">
-      <div class="emIco">
-        <i class={props.icon}></i>
+    <div className="em column">
+      <div className="emIco">
+        <i className={props.icon}></i>
       </div>
-      <div class="emDesc">
+      <div className="emDesc">
         <h3>WebDesigner – Mutation Media </h3>
         <h6>2005-2013</h6>
         <p>
