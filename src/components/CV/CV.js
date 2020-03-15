@@ -24,7 +24,7 @@ export const CV = () => {
           <div className="emHolder top clearfix">
             <CardRow>
               <ExperienceCard
-                title="WebDeveloper - MutationMedia"
+                title="Encargado de E-commerce"
                 time="2005-2013"
                 icon="icon-briefcase"
               >
@@ -60,14 +60,11 @@ export const CV = () => {
           <div className="edHolder top clearfix">
             <CardRow>
               <ExperienceCard
-                title="Master Degree – Mutation Media"
-                time="2005-2013"
+                title="Matemáticas Aplicadas y Computación"
+                time="2017-Presente"
                 icon="icon-graduation-cap"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.{" "}
+                Estudiante de sexto semestre de la licenciatura en matemáticas aplicadas y computación en la FES Acatlán.
               </ExperienceCard>
               <ExperienceCard
                 title="Master Degree – Mutation Media"

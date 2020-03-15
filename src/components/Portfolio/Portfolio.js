@@ -1,11 +1,23 @@
+// React
 import React from "react";
 
+// Components
 import { SectionTitle } from "../Global/SectionTitle";
 import { Project } from "./Project";
 
-import turisfon from "../../assets/img/turisfon.png";
 
-export const Portfolio = props => {
+// Data
+import { categories, projects } from "../../data";
+
+export const Portfolio = (props) => {
+
+  const projectsArr = projects.map((val, i)=>{
+    console.log(val);
+    
+    return <Project project={val} key={i}></Project>
+  })
+
+
   return (
     <section id="portfolio" className="clearfix section">
       <SectionTitle title="portfolio" icon="icon-camera">
@@ -33,15 +45,15 @@ export const Portfolio = props => {
               <li className="all current">
                 <a href="">All</a>
               </li>
-              <li className={Categories.data_science.type}>
-                <a href="">{Categories.data_science.name}</a>
+              <li className={categories.data_science.type}>
+                <a href="">{categories.data_science.name}</a>
               </li>
-              <li className={Categories.web.type}>
-                <a href="">{Categories.web.name}</a>
+              <li className={categories.web.type}>
+                <a href="">{categories.web.name}</a>
               </li>
-              <li className={Categories.mobile.type}>
+              <li className={categories.mobile.type}>
                 <a className="last" href="">
-                  {Categories.mobile.name}
+                  {categories.mobile.name}
                 </a>
               </li>
             </ul>
@@ -49,40 +61,13 @@ export const Portfolio = props => {
 
           <div id="works" className="clearfix">
             <ul className="portfolio clearfix ">
-              <Project
-                title="Análisis jugadores FIFA19"
-                category={Categories.data_science}
-                image={turisfon}
-              />
-              <Project
-                title="Muevetec"
-                category={Categories.web}
-                image={turisfon}
-              />
-              <Project
-                title="Publifon App"
-                category={Categories.mobile}
-                image={turisfon}
-              />
+
+              {projectsArr}
+
             </ul>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-const Categories = {
-  data_science: {
-    name: "Ciencia de Datos y Estadistica",
-    type: "catDS"
-  },
-  web: {
-    name: "Desarrollo Web",
-    type: "catWeb"
-  },
-  mobile: {
-    name: "Desarrollo Mobil",
-    type: "catMobil"
-  }
 };

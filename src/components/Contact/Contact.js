@@ -1,8 +1,21 @@
-import React from "react";
+// React
+import React, { useState } from "react";
+
+// Components
 import { SectionTitle } from "../Global/SectionTitle";
 import { SubsectionTitle } from "../Global/SubsectionTitle";
 
 export const Contact = () => {
+  // * State
+  const [loading, setloading] = useState(false);
+
+  const sendContactForm = async () => {
+    setloading(true);
+    await fetch("google.com").then(data => {
+      setloading(false);
+    });
+  };
+
   return (
     <section id="contact" className="clearfix section">
       <SectionTitle title="Contact">

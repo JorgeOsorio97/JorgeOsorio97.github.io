@@ -45,7 +45,7 @@ export const Footer = () => {
       <div className="bottom clearfix">
         <div className="holder960 clearfix">
           <p>
-            &copy; 2013. <span>Confidence</span> All Rights Reserved.
+            
           </p>
           <ul>
             <li>

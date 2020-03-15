@@ -1,24 +1,33 @@
+// React
 import React from "react";
+
+// Components
 import { Skill } from "./Skill";
 import { Contact } from "./Contact";
 import { SectionTitle } from "../Global/SectionTitle";
+
+// Assets
+import profileImage from '../../assets/img/profile.png'
 
 export const About = () => {
   return (
     <section id="about" className="clearfix ">
       <SectionTitle title="¿Quien soy?" icon="icon-umbrella">
-      <p>Soy un estudiante, un programador web y un cientifico de datos.<br /> Especilaizado en Python y Java.</p>
+        <p>
+          Cientifico de dtos, desarollador web y android.
+          <br /> Especilaizado en Python y Javascript.
+        </p>
       </SectionTitle>
 
       <div className="holder960 clearfix">
         <div className="innerTitle">
           <h1> Jorge Valdez</h1>
-          <p>Cientifico de datos y Desarollador Web</p>
+          <p>Cientifico de datos y Desarollador de Software</p>
         </div>
 
         <div className="userProfile top nBottom">
           <div className="imgProfile">
-            <img src="images/profile.jpg" width="200" height="200" alt="" />
+            <img src={profileImage} width="200" height="200" alt="" />
           </div>
 
           <div className="getBtn">
